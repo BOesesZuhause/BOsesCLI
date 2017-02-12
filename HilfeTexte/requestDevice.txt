@@ -1,0 +1,13 @@
+request device [param]
+
+param: (-a|all) | (-h|help) | (id=<id of Device>) | ((-z |zoneid=)<id of zone>) | ((-C |connectorid=)<id of connector>)
+
+	-a|all: 								Lists all Devices
+
+	-h|help:								Shows this help
+
+	id=<id of Device>:						Displays the Device with the given ID
+
+	(-z |zoneid=)<id of zone>:				Displays all Devices of the given Zone
+
+	(-C |connectorid=)<id of connector>:	Displays all Devices of the given Connector

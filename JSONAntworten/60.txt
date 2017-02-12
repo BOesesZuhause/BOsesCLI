@@ -1,0 +1,1 @@
+{"Header":{"ConnectorId":42,"MessageType":60,"Status":0,"Timestamp":1},"Rules":[{"RuleId":1,"Active":true,"InsertDate":1453247200,"ModifyDate":1486891427,"Permissions":"<PERMISSION></PERMISSION>","Conditions":"<CONDITION></CONDITION>","Actions":"<ACTION></ACTION>"}]}

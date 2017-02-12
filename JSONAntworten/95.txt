@@ -1,0 +1,1 @@
+{"Header":{"ConnectorId":42,"MessageType":95,"Status":0,"Timestamp":1},"Units":[{"UnitId":11,"TempUnitId":-4221}]}

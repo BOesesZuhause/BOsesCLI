@@ -1,0 +1,11 @@
+request devicecomponent [param]
+
+param: (-h|help) | (id=<id of Device>) | ((-u |unitid=)<id of unit>) | ((-n |name=)<name>)
+
+	-h|help: 					Shows this help
+
+	id=<id of DeviceComponent>:	Confirm the DeviceComponent with the given ID
+
+	(-u |unitid=)<id of unit>:	Assign the given Unit to the confirmed DeviceComponent
+
+	(-n |name=)<name>:			Assign the given Name to the confirmed DeviceComponent

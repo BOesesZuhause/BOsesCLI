@@ -1,0 +1,11 @@
+request devicecomponent [param]
+
+param: (-a|all) | (-h|help) | (id=<id of Device>) | ((-D |deviceid=)<id of device>)
+
+	-a|all: 						Lists all DeviceComponents
+
+	-h|help: 						Shows this help
+
+	id=<id of DeviceComponent>:		Displays the DeviceComponent with the given ID
+
+	(-D |deviceid=)<id of device>:	Displays all DeviceComponents of the given Device

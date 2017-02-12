@@ -1,0 +1,9 @@
+request unit [param]
+
+param: (-a|all) | (-h|help) | (id=<id of unit>)
+
+	-a|all: 			Lists all Units
+
+	-h|help: 			shows this help
+
+	id=<id of unit>:	Displays the Unit with the given ID

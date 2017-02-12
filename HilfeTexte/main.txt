@@ -1,0 +1,13 @@
+[command] [object] [param]
+
+command: (request) | (create) | (confirm)
+
+	request: requests an object from BOese
+	
+	create: creates an new object in BOese
+	
+	confirm: confirms an temporaly object in BOese
+
+object: The possible objects are discribed in the help of a command. You can get the objects by calling [command]
+
+param: The possible params are discribed in the help of an object. You can get the params by calling [command] [object]

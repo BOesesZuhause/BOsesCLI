@@ -1,0 +1,5 @@
+confirm [object] [param]
+
+object: (device) | (devicecomponent) | (connector)
+
+param: The possible params are discribed in the help of an object. You can get the help by calling confirm [object]

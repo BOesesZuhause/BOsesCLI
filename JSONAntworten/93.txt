@@ -1,0 +1,1 @@
+{"Header":{"ConnectorId":42,"MessageType":93,"Status":0,"Timestamp":1},"Zones":[{"ZoneId":2,"TempZoneId":-4221}]}

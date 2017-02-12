@@ -1,0 +1,13 @@
+request unconfirmed [param]
+
+param: (-a|all) | (-h|help) | (-C|connector) | (-d|devicecomponent) | (-D|device)
+
+	-a|all: 			Lists all unconfirmed objects
+
+	-h|help: 			Shows this help
+
+	-C|connector:		Shows all unconfirmed connectors
+	
+	-d|devicecomponent:	Shows all unconfirmed devicecomponents
+	
+	-D|device:			Shows all unconfirmed devices

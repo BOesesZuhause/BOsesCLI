@@ -1,0 +1,1 @@
+{"Header":{"ConnectorId":42,"MessageType":53,"Status":0,"Timestamp":1},"DeviceId":6,"Components":[{"DeviceComponentId":22,"Value":0.0,"Timestamp":1486890900,"Description":"Tuer","Actor":false,"ComponentName":"onOFF"},{"DeviceComponentId":23,"Value":1.0,"Timestamp":1486894500,"Description":"Fertig","Actor":false,"ComponentName":"onOFF"}]}

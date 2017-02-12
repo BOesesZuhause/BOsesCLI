@@ -1,0 +1,11 @@
+create rule [param]
+
+param: (-h|help) | ((-p |permission=)<permission>) | ((-b |condition=)<condition>) | ((-A |action=)<action>)
+
+	-h|help:						Shows this help
+
+	(-p |permission=)<permission>:	Create the Rule with the given <permission>
+
+	(-b |condition=)<condition>:	Create the Rule with the given <condition>
+
+	(-A |action=)<action>:			Create the Rule with the given <action>

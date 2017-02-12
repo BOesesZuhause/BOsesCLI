@@ -1,0 +1,9 @@
+request device [param]
+
+param: (-h|help) | (id=<id of Device>) | ((-z |zoneid=)<id of zone>)
+
+	-h|help:								Shows this help
+
+	id=<id of Device>:						Confirm the Device with the given ID
+
+	(-z |zoneid=)<id of zone>:				Assign the given Zone to the confirmed Device

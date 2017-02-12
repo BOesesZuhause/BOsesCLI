@@ -1,0 +1,11 @@
+request zone [param]
+
+param: (-a|all) | (-h|help) | (id=<id of zone>) | ((-s |superzoneid=)<id of superzone>)
+
+	-a|all: 								Lists all Zones
+
+	-h|help: 								Shows this help
+
+	id=<id of zone>:						Displays the Zone with the given ID
+
+	(-s |superzoneid)=<id of superzone>:	Displays all Zones of the given SuperZone

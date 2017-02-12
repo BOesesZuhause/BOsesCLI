@@ -1,0 +1,1 @@
+{"Header":{"ConnectorId":42,"MessageType":58,"Status":0,"Timestamp":1},"zones":[{"ZoneId":0,"SuperZoneId":0,"ZoneName":"Global"},{"ZoneId":1,"SuperZoneId":0,"ZoneName":"Haus"},{"ZoneId":5,"SuperZoneId":1,"ZoneName":"Erdgeschoss"}]}

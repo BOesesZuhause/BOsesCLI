@@ -1,0 +1,7 @@
+confirm connector [param]
+
+param: (-h|help) | (id=<id of connector>)
+
+	-h|help: 					Shows this help
+
+	id=<id of connector>:		Confirm the Connector with the given ID

@@ -1,0 +1,9 @@
+request connector [param]
+
+param: (-a|all) | (-h|help) | (id=<id of connector>)
+
+	-a|all: 					Lists all Connectors
+
+	-h|help: 					Shows this help
+
+	id=<id of connector>:		Displays the Connector with the given ID

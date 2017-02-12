@@ -1,0 +1,1 @@
+{"Header":{"ConnectorId":42,"MessageType":91,"Status":0,"Timestamp":1},"Rules":[{"RuleId":2,"TempRuleId":-4221}]}

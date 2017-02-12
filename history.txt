@@ -1,0 +1,77 @@
+clearhistory
+create rule -p "<per>" -b "<con>" -a "<act>"
+create a
+create rule -p "<per>" -b "<con>" -a "<act>"
+create rule -p "<per>" -b "<con>" -a "<act>"
+create rule -p "<per>" -b "<con>" -A "<act>"
+create rule -p "<per>" -b "<con>" -A "<act>"
+create rule -p "<per>" -b "<con>" -A "<act>"
+create rule -p "<per>" -b "<con>" -A "<act>"
+create rule -p "<per>" -b "<con>" -a "<act>"
+exit
+exit
+create rule -p "<per>" -b "<con>" -a "<act>"
+create rule -p "<per>" -b "<con>" -A "<act>"
+exit
+create rule -p "<per>" -b "<con>" -A "<act>"
+exit
+create rule -p "<per>" -b "<con>" -A "<act>"
+create rule -p "<per>" -b "b" -A "<act>"
+exit
+reqest device all !WRONG!
+request device all
+request device all
+request device
+request device help
+request device -a
+request device all
+exit
+request device all
+exit
+request device id=10
+request device id=10
+request device id=10
+request device all
+request
+request unconfirmed
+exit
+request
+exit
+exit
+request device all
+request devicecomponent
+request devicecomponent deviceid=1 all
+exit
+request unconfirmed
+request unconfirmed all
+request unconfirmed all -c
+request unconfirmed all -d
+request unconfirmed -d
+exit
+request unconfirmed -d
+confirm
+confirm
+exit
+confirm
+confirm device
+confirm device help
+confirm device id=1 -z 1
+create
+create zone
+exit
+request !WRONG!
+exit
+connect ws://localhost:8080/CLITest
+connect url=ws://localhost:8080/CLITest
+connect url="ws://localhost:8080/CLITest"
+disconnect
+connect url="ws://localhost:8080/CLITest"
+request devicecomponent
+connect url="ws://localhost:8080/CLITest"
+connect url="ws://localhost:8080/CLITest"
+connect url="ws://localhost:8080/CLITest"
+connect url="ws://localhost:8080/CLITest"
+connect url="ws://localhost:8080/CLITest"
+connect url="ws://localhost:8080/CLITest"
+connect url="ws://localhost:8080/CLITest"
+request devicecomponent deviceid=1 all

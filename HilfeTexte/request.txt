@@ -1,0 +1,5 @@
+request [object] [param]
+
+object: (device) | (devicecomponent) | (connector) | (zone) | (rule) | (unit) | (unconfirmed) 
+
+param: The possible params are discribed in the help of an object. You can get the help by calling request [object]

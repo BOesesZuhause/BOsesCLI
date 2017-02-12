@@ -1,0 +1,9 @@
+request rule [param]
+
+param: (-a|all) | (-h|help) | (id=<id of rule>)
+
+	-a|all: 			Lists all rules
+
+	-h|help: 			Shows this help
+
+	id=<id of rule>:	Displays the Rule with the given ID
