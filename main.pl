@@ -7,11 +7,12 @@ use create;
 use confirm;
 use websocket;
 
-$b = 1;
 $requester = new request('request');
 $creater = new create('create');
 $confirmer = new confirm('confirm');
 $ws = new websocket('websocket');
+
+$b = 1;
 $connected = 0;
 
 #must be connected
@@ -52,30 +53,39 @@ while($b){
 	elsif($eingabe =~ m/^((help)|(-h))$/){
 		openHelp("main.txt");
 	}
-	elsif($connected != 0 && $eingabe =~ /^request(?: (\w+))?(?: (.*))?/){ #request help
-		$req = $requester->request($1, $2);
-		if($req =~ /^([^\|]*)\|(\d+)\|(\d*)\|?({.*)/){
-			$ws->send($4);
-			if($2 == 80) {showUnconfirmedData($1, $ws->loadAnswer($2, $3))}
-			elsif($2 == 52) {showDeviceComponentData($1, $ws->loadAnswer($2, $3))}
-			else {showData($1, $ws->loadAnswer($2, $3))};
+	elsif($eingabe =~ /^request(?: (\w+))?(?: (.*))?/){
+		if ($connected){
+			$req = $requester->request($1, $2);
+			if($req =~ /^([^\|]*)\|(\d+)\|(\d*)\|?({.*)/){
+				$ws->send($4);
+				if($2 == 80) {showUnconfirmedData($1, $ws->loadAnswer($2, $3))}
+				elsif($2 == 52) {showDeviceComponentData($1, $ws->loadAnswer($2, $3))}
+				else {showData($1, $ws->loadAnswer($2, $3))};
+			}
 		}
+		else {print "You have to connect with BOese\n"}
 	}
 	elsif($connected != 0 && $eingabe =~ /^create(?: (\w+))?(?: (.*))?/){
-		$cre = $creater->create($1, $2);
-		if($cre =~ /^(\d+)\|({.*)/){
-			$ws->send($2);
-			isCreated($1, $ws->loadAnswer($1));
+		if ($connected){
+			$cre = $creater->create($1, $2);
+			if($cre =~ /^(\d+)\|({.*)/){
+				$ws->send($2);
+				isCreated($1, $ws->loadAnswer($1));
+			}
 		}
+		else {print "You have to connect with BOese\n"}
 	}
 	elsif($connected != 0 && $eingabe =~ /^confirm(?: (\w+))?(?: (.*))?/){
-		$con = $confirmer->confirm($1, $2);
-		if ($con ne ""){
-			$ws->send($con);
+		if ($connected){
+			$con = $confirmer->confirm($1, $2);
+			if ($con ne ""){
+				$ws->send($con);
+			}
 		}
+		else {print "You have to connect with BOese\n"}
 	}
 	else{
-		print "Command '$eingabe' not found.\nOr you have to connect with BOese\n";
+		print "Command '$eingabe' not found.\n";
 		$eingabe .= " !WRONG!" 
 	}
 	if ($eingabe ne "") {

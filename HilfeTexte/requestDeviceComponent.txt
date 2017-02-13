@@ -1,11 +1,11 @@
-request devicecomponent [param]
+request devicecomponent (deviceid=<id of device>) [param]
 
-param: (-a|all) | (-h|help) | (id=<id of Device>) | ((-D |deviceid=)<id of device>)
+	deviceid=<id of device>:	Displays DeviceComponents of the given Device
 
-	-a|all: 						Lists all DeviceComponents
+param: (-a|all) | (-h|help) | (id=<id of DeviceComponent>)
 
-	-h|help: 						Shows this help
+	-a|all: 				Lists all DeviceComponents
+
+	-h|help: 				Shows this help
 
 	id=<id of DeviceComponent>:		Displays the DeviceComponent with the given ID
-
-	(-D |deviceid=)<id of device>:	Displays all DeviceComponents of the given Device

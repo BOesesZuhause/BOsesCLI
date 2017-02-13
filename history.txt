@@ -75,3 +75,6 @@ connect url="ws://localhost:8080/CLITest"
 connect url="ws://localhost:8080/CLITest"
 connect url="ws://localhost:8080/CLITest"
 request devicecomponent deviceid=1 all
+connect
+connect
+connect url=ws://localhost:8080/CLITest

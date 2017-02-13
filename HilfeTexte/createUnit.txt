@@ -1,9 +1,9 @@
 create Unit [param]
 
-param: (-h|help) | ((-n |name=)<name>) | ((-S |symbol=)<id of symbol>)
+param: (-h|help) | ((-n |name=)<"name">) | ((-S |symbol=)<id of symbol>)
 
 	-h|help: 						Shows this help
 
-	(-n |name=)<name>:				Create the Unit with the given <name>
+	(-n |name=)<"name">:			Create the Unit with the given <name>
 
 	(-S |symbol=)<id of symbol>:	Create the Unit with the given <symbol>

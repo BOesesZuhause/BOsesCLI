@@ -19,11 +19,11 @@ sub connect{
   my $classname = shift;
   my $url = shift // "";
   if($url =~ /(?:(?:url=)|(?:\-U ))"([^"]*)"/){
-    $connection = $client->connect($1)->recv; #ws://localhost:8080/CLITest
+    $connection = $client->connect($1)->recv; #origanally you have to build a Callback(sub method), but the Callback is never called.
     return 1;
   }
   else {
-    print 'connect (-U |url=)"<URL of BOese>"\n';
+    print 'connect (-U |url=)"<URL of BOese>"'."\n";
     return 0;
   }
 }

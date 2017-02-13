@@ -1,9 +1,9 @@
 create zone [param]
 
-param: (-h|help) | ((-s |superzoneid=)<id of superzone>) | ((-n |name=)<name>)
+param: (-h|help) | ((-s |superzoneid=)<id of superzone>) | ((-n |name=)"<name>")
 
 	-h|help: 								Shows this help
 
 	(-s |superzoneid=)<id of superzone>:	Create the Zone with the given <superzone>
 
-	(-n |name=)<name>:						Create the Zone with the given <name>
+	(-n |name=)"<name>":						Create the Zone with the given <name>

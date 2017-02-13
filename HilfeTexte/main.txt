@@ -1,12 +1,16 @@
 [command] [object] [param]
 
-command: (request) | (create) | (confirm)
+command: (request) | (create) | (confirm) | (connect) | (disconnect)
 
 	request: requests an object from BOese
 	
 	create: creates an new object in BOese
 	
 	confirm: confirms an temporaly object in BOese
+
+	connect: connect to BOese (have no object)
+	
+	disconnect: disconnect from BOese (have no object and no params)
 
 object: The possible objects are discribed in the help of a command. You can get the objects by calling [command]
 
